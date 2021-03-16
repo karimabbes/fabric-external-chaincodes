@@ -48,5 +48,5 @@ spec:
       volumes:
         - name: ca-org2-claim0
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/ca/
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/ca/
             type: Directory

@@ -86,15 +86,15 @@ spec:
       volumes:
         - name: peer0-org2-claim1
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/peers/peer0-org2/msp
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/peers/peer0-org2/msp
             type: Directory
         - name: peer0-org2-claim2
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/peers/peer0-org2/tls
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config/peerOrganizations/org2/peers/peer0-org2/tls
             type: Directory
         - name: peer0-persistentdata
           hostPath:
-            path: /home/storage/peer0-org2
+            path: /home/ubuntu/storage/peer0-org2
             type: DirectoryOrCreate
         - name: builders-config
           configMap:

@@ -84,14 +84,14 @@ spec:
       volumes:
         - name: orderer2-persistentdata
           hostPath:
-            path: /home/storage/orderer2
+            path: /home/ubuntu/storage/orderer2
             type: DirectoryOrCreate
         - name: orderer2-claim0
           hostPath:
-            path: /home/fabric-external-chaincodes/channel-artifacts/genesis.block
+            path: /home/ubuntu/fabric-external-chaincodes/channel-artifacts/genesis.block
         - name: orderer2-claim1
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config/ordererOrganizations/consortium/orderers/orderer2/msp
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config/ordererOrganizations/consortium/orderers/orderer2/msp
         - name: orderer2-claim2
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config/ordererOrganizations/consortium/orderers/orderer2/tls
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config/ordererOrganizations/consortium/orderers/orderer2/tls

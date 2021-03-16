@@ -65,16 +65,16 @@ spec:
         #     type: Directory
         - name: cli-claim1
           hostPath:
-            path: /home/fabric-external-chaincodes/chaincode
+            path: /home/ubuntu/fabric-external-chaincodes/chaincode
             type: Directory
         - name: cli-claim2
           hostPath:
-            path: /home/fabric-external-chaincodes/channel-artifacts
+            path: /home/ubuntu/fabric-external-chaincodes/channel-artifacts
             type: Directory
         - name: cli-claim3
           hostPath:
-            path: /home/fabric-external-chaincodes/crypto-config
+            path: /home/ubuntu/fabric-external-chaincodes/crypto-config
             type: Directory
         - name: cli-fabcar
           hostPath:
-            path: /home/fabric-external-chaincodes/fabcar
+            path: /home/ubuntu/fabric-external-chaincodes/fabcar
